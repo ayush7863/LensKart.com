@@ -4,6 +4,7 @@ import "./Navbar.css";
 // import img1 from "./Images/EYE KART.jpg";
 import { BsCartCheckFill } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
+import Home from "../Home/Home";
 // import { FaBeer} from 'react-icons/fa';
 const Navbar = () => {
   //   console.log(img1);
@@ -111,6 +112,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <Home/>
     </div>
   );
 };

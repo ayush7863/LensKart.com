@@ -1,14 +1,17 @@
 #navbar{
-    border:1px solid black;
+    border:0px solid black;
     height:25vh;
     display:flex;
     justify-content:center;
     flex-direction:column;
+    position:fixed;
+    z-index:10;
+    background-color:white;
     
 
 }
 #navbar>div{
-    border:1px solid black;
+    border:0px solid black;
     height:40%;
    
     
