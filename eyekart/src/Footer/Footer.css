@@ -1,0 +1,96 @@
+
+.footer-section{
+    border:2px solid black;
+    height:600px;
+    position:relative;
+    top:150px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    background-color:rgb(3, 3, 71);
+}
+.footer-section>div{
+    border:0px solid black;
+    height:30%;
+    width:99%;
+    color:white;
+    text-align:justify;
+    
+}
+.footer-section>div:nth-child(1){
+    height:49%;
+    padding:20px;
+}
+.footer-section>div:nth-child(1)>h1{
+    font-size:25px;
+    font-weight:bold;
+    padding-bottom:5px;
+}
+.footer-section>div:nth-child(1)>p{
+    line-height:25px;
+    padding-bottom:5px;
+}
+.footer-section>div:nth-child(2){
+    height:60%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-top:1px solid white;
+}
+.footer-section>div:nth-child(2)>div{
+    border:0px solid white;
+    width:20%;
+    height:90%;
+
+}
+.footer-section>div:nth-child(2)>div:nth-child(1){
+    width:60%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.footer-section>div:nth-child(2)>div:nth-child(1)>div{
+    border:0px solid yellow;
+    width:30%;
+    height:90%;
+
+}
+.footer-section>div:nth-child(2)>div:nth-child(1)>div>h2{
+    font-size:25px;
+    font-weight:600;
+}
+.footer-section>div:nth-child(2)>div:nth-child(1)>div>p{
+    line-height:35px;
+    letter-spacing:1px;
+}
+.footer-section>div:nth-child(2)>div:nth-child(1)>div>p:hover{
+    color:yellow;
+    cursor:pointer;
+}
+
+.footer-section>div:nth-child(2)>div:nth-child(2){
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.footer-section>div:nth-child(2)>div:nth-child(2)>div{
+    border:0px solid yellow;
+    width:90%;
+    height:40%;
+    display:flex;
+    justify-content:center;
+    gap:2px;
+
+
+}
+.footer-section>div:nth-child(2)>div:nth-child(2)>div>img{
+    width:50%;
+    cursor:pointer;
+}
+.footer-section>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
+    font-size:12px;
+    text-align:center;
+}

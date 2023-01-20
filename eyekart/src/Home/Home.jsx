@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import Footer from "../Footer/Footer";
 
 const SliderData = [
   {
@@ -154,52 +155,131 @@ const Home = () => {
           </div>
           <div>
             <div>
-              <div><img src="https://static1.lenskart.com/media/desktop/img/Sep21/blend.jpg" alt="fourth-section"/> Blend Edit</div>
-              <div><button>Explore</button></div>
+              <div>
+                <img
+                  src="https://static1.lenskart.com/media/desktop/img/Sep21/blend.jpg"
+                  alt="fourth-section"
+                />{" "}
+                Blend Edit
+              </div>
+              <div>
+                <button>Explore</button>
+              </div>
             </div>
             <div>
-              <div><img src="https://static1.lenskart.com/media/desktop/img/Sep21/clipon.jpg" alt="fourth-section"/>Air Clip On </div>
-              <div><button>Explore</button></div>
+              <div>
+                <img
+                  src="https://static1.lenskart.com/media/desktop/img/Sep21/clipon.jpg"
+                  alt="fourth-section"
+                />
+                Air Clip On{" "}
+              </div>
+              <div>
+                <button>Explore</button>
+              </div>
             </div>
             <div>
-              <div><img src="https://static1.lenskart.com/media/desktop/img/Sep21/airflex.jpg" alt="fourth-section"/>Air Flex</div>
-              <div><button>Explore</button></div>
+              <div>
+                <img
+                  src="https://static1.lenskart.com/media/desktop/img/Sep21/airflex.jpg"
+                  alt="fourth-section"
+                />
+                Air Flex
+              </div>
+              <div>
+                <button>Explore</button>
+              </div>
             </div>
             <div>
-                <div><img src="https://static1.lenskart.com/media/desktop/img/Sep21/aviator.jpg" alt="fourth-section"/>Retro Aviator</div>
-                <div><button>Explore</button></div>
+              <div>
+                <img
+                  src="https://static1.lenskart.com/media/desktop/img/Sep21/aviator.jpg"
+                  alt="fourth-section"
+                />
+                Retro Aviator
+              </div>
+              <div>
+                <button>Explore</button>
+              </div>
             </div>
           </div>
         </div>
         <div className="fifth-section">
-            <div><hr/><h1>As Seen on Shark Tank</h1><hr/></div>
-            <div><img src="https://static1.lenskart.com/media/desktop/img/Dec22/1-Dec/Homepage-Banner-web.gif" alt="fifth-section"/></div>
+          <div>
+            <hr />
+            <h1>As Seen on Shark Tank</h1>
+            <hr />
+          </div>
+          <div>
+            <img
+              src="https://static1.lenskart.com/media/desktop/img/Dec22/1-Dec/Homepage-Banner-web.gif"
+              alt="fifth-section"
+            />
+          </div>
         </div>
-         <div className="sixth-section">
-            <div><hr/><h1>Trending Sunglasses</h1><hr/></div>
-            <div><img src="https://static1.lenskart.com/media/desktop/img/Jan23/sunglasses/Sun-Banner-web.gif" alt="sixth-section"/></div>
+        <div className="sixth-section">
+          <div>
+            <hr />
+            <h1>Trending Sunglasses</h1>
+            <hr />
+          </div>
+          <div>
+            <img
+              src="https://static1.lenskart.com/media/desktop/img/Jan23/sunglasses/Sun-Banner-web.gif"
+              alt="sixth-section"
+            />
+          </div>
         </div>
-         <div className="seventh-section">
-            <div><hr/><h1>As Seen On Kiara</h1><hr/></div>
-            <div><img src="https://static1.lenskart.com/media/desktop/img/Nov22/23-Nov/Hompage-banner4.jpg" alt="seventh-section"/></div>
+        <div className="seventh-section">
+          <div>
+            <hr />
+            <h1>As Seen On Kiara</h1>
+            <hr />
+          </div>
+          <div>
+            <img
+              src="https://static1.lenskart.com/media/desktop/img/Nov22/23-Nov/Hompage-banner4.jpg"
+              alt="seventh-section"
+            />
+          </div>
         </div>
-         <div className="eight-section">
-            <div><hr/><h1>Aquacolor - Glam Up With Color Lenses</h1><hr/></div>
-            <div><img src="https://static1.lenskart.com/media/desktop/img/Oct22/kiara/Refresh-Banner-Web.gif" alt="eight-section"/></div>
+        <div className="eight-section">
+          <div>
+            <hr />
+            <h1>Aquacolor - Glam Up With Color Lenses</h1>
+            <hr />
+          </div>
+          <div>
+            <img
+              src="https://static1.lenskart.com/media/desktop/img/Oct22/kiara/Refresh-Banner-Web.gif"
+              alt="eight-section"
+            />
+          </div>
         </div>
         <div className="ninth-section">
-            <div><div><hr/><h1>Aquacolor - Glam Up With Color Lenses</h1><hr/></div></div>
+          <div>
             <div>
-                {/* <div></div> */}
-                <div id="f-div"></div>
-                {/* <div></div> */}
-                <div ></div>
-                <div></div>
-                <div></div>
+              <hr />
+              <h1>Aquacolor - Glam Up With Color Lenses</h1>
+              <hr />
             </div>
+          </div>
+          <div>
+            {/* <div id="f-div"><img src="https://static1.lenskart.com/media/desktop/img/Aug21/Desktop/eye-square10.jpg" alt="ninth-section"/></div>
+            <div><img src="https://static1.lenskart.com/media/desktop/img/Aug21/Desktop/ce-square.jpg" alt="ninth-section"/></div>
+            <div><img src="https://static1.lenskart.com/media/desktop/img/Aug21/Desktop/sun-square.jpg" alt="ninth-section"/></div>
+            <div><img src="https://static1.lenskart.com/media/desktop/img/Nov20/25-Nov/Banner03_TileDesktop.jpg" alt="ninth-section"/></div>
+            <div><img src="https://static1.lenskart.com/media/desktop/img/Nov20/25-Nov/Banner03_TileDesktop.jpg" alt="ninth-section"/></div>
+            <div><img src="https://static1.lenskart.com/media/desktop/img/Nov20/25-Nov/Banner03_TileDesktop.jpg" alt="ninth-section"/></div> */}
+             <div><img src="https://static1.lenskart.com/media/desktop/img/Aug21/Desktop/power-sun-square.jpg" alt="ninth-section"/></div>
+             <div><img src="https://static1.lenskart.com/media/desktop/img/Aug21/Desktop/ce-square.jpg" alt="ninth-section"/></div>
+             <div><img src="https://static1.lenskart.com/media/desktop/img/Aug21/Desktop/sun-square.jpg" alt="ninth-section"/></div>
+             <div><img src="https://static1.lenskart.com/media/desktop/img/Nov20/25-Nov/Banner03_TileDesktop.jpg" alt="ninth-section"/></div>
+            
+          </div>
         </div>
-
       </div>
+      <Footer/>
     </div>
   );
 };
